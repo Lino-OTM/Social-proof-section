@@ -6,7 +6,7 @@ This is a solution to the [Social proof section challenge on Frontend Mentor](ht
 
 ![](/social-proof-section.jpg)
 
-Link:
+Link: https://lino-otm.github.io/Social-proof-section/
 
 ### Built with:
 
