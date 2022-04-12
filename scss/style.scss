@@ -1,0 +1,115 @@
+@use "colors";
+
+html {
+  font-family: "Spartan", sans-serif;
+  font-size: 62.5%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 5rem 0;
+  background-image: url(../images/bg-pattern-top-desktop.svg),
+                    url(../images/bg-pattern-bottom-desktop.svg);
+  background-position: top left, bottom right;
+  background-repeat: no-repeat, no-repeat;
+  background-size: auto, auto;
+}
+
+.main-container {
+  width: 86%;
+  max-width: 120rem;
+}
+
+.info-container {
+  text-align: center;
+
+  &__title {
+    color: colors.$veryDarkMagenta;
+    font-weight: 700;
+    font-size: 3rem;
+    padding: 0 2.1rem;
+    letter-spacing: -2px;
+  }
+  &__text {
+    color: colors.$darkGrayishMagenta;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 2.3rem;
+    margin-bottom: 3.5rem;
+  }
+}
+
+.qualification-container {
+  background-color: colors.$lightGrayishMagenta;
+  border-radius: 1rem;
+  margin-bottom: 1.8rem;
+  padding: 1.5rem 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  &__stars {
+    background-image: url("../images/icon-star.svg");
+    background-repeat: space;
+    width: 10.1rem;
+    height: 1.6rem;
+    margin-bottom: 1.2rem;
+  }
+  &__text {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: colors.$veryDarkMagenta;
+    margin: 0;
+  }
+
+  &:nth-child(3) {
+    margin-bottom: 5rem;
+  }
+}
+
+.review-container {
+  background-color: colors.$veryDarkMagenta;
+  border-radius: 1rem;
+  padding: 2.6rem;
+  margin-bottom: 1.5rem;
+
+  &__title-wrapper {
+    display: flex;
+  }
+
+  &__picture {
+    border-radius: 50%;
+    width: 4rem;
+    height: 4rem;
+  }
+
+  &__name {
+    padding-left: 1.8rem;
+    font-size: 1.3rem;
+    font-weight: 700;
+    line-height: 2rem;
+    margin: 0;
+    color: colors.$white;
+  }
+
+  &__status {
+    font-weight: 400;
+    color: colors.$softPink;
+  }
+
+  &__review {
+    color: colors.$lightGrayishMagenta;
+    font-size: 1.3rem;
+    line-height: 2.3rem;
+  }
+}
+
+.attribution {
+  font-size: 1.1rem;
+  text-align: center;
+}
+.attribution a {
+  color: colors.$veryDarkMagenta;
+}

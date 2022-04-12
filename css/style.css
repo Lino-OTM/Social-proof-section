@@ -1,0 +1,107 @@
+html {
+  font-family: "Spartan", sans-serif;
+  font-size: 62.5%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 5rem 0;
+  background-image: url(../images/bg-pattern-top-desktop.svg), url(../images/bg-pattern-bottom-desktop.svg);
+  background-position: top left, bottom right;
+  background-repeat: no-repeat, no-repeat;
+  background-size: auto, auto;
+}
+
+.main-container {
+  width: 86%;
+  max-width: 120rem;
+}
+
+.info-container {
+  text-align: center;
+}
+.info-container__title {
+  color: #502050;
+  font-weight: 700;
+  font-size: 3rem;
+  padding: 0 2.1rem;
+  letter-spacing: -2px;
+}
+.info-container__text {
+  color: #937b92;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 2.3rem;
+  margin-bottom: 3.5rem;
+}
+
+.qualification-container {
+  background-color: #f7f2f7;
+  border-radius: 1rem;
+  margin-bottom: 1.8rem;
+  padding: 1.5rem 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.qualification-container__stars {
+  background-image: url("../images/icon-star.svg");
+  background-repeat: space;
+  width: 10.1rem;
+  height: 1.6rem;
+  margin-bottom: 1.2rem;
+}
+.qualification-container__text {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #502050;
+  margin: 0;
+}
+.qualification-container:nth-child(3) {
+  margin-bottom: 5rem;
+}
+
+.review-container {
+  background-color: #502050;
+  border-radius: 1rem;
+  padding: 2.6rem;
+  margin-bottom: 1.5rem;
+}
+.review-container__title-wrapper {
+  display: flex;
+}
+.review-container__picture {
+  border-radius: 50%;
+  width: 4rem;
+  height: 4rem;
+}
+.review-container__name {
+  padding-left: 1.8rem;
+  font-size: 1.3rem;
+  font-weight: 700;
+  line-height: 2rem;
+  margin: 0;
+  color: white;
+}
+.review-container__status {
+  font-weight: 400;
+  color: #ee68a4;
+}
+.review-container__review {
+  color: #f7f2f7;
+  font-size: 1.3rem;
+  line-height: 2.3rem;
+}
+
+.attribution {
+  font-size: 1.1rem;
+  text-align: center;
+}
+
+.attribution a {
+  color: #502050;
+}
+
+/*# sourceMappingURL=style.css.map */
